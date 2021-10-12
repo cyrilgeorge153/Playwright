@@ -4,7 +4,7 @@
 
 Playwright Java-Maven-TestNG framework. Implemented cross browser testing. Implemented page object model . Added Log 4j Api to generate log files. Used TestNG inbuild reports. Used retry analyzer to rerun the failed test cases. Used properties file to read the application url.  Given support to chrome, firefox, microsoft edge, headless chrome, headless firefox, headlessedge. 
 
-Maven Project Execution without using any IDE after downloading project to local system-> Select CMD and go to project path where pom.xml file is loacted and execute following commands:
+Maven Project Execution without using any IDE after downloading project to local system-> Select CMD and go to project path where pom.xml file is loacted and execute following commands in CMD
 
 To execute in chrome->`mvn test -Dbrowsername=chrome`
 
