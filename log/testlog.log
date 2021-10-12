@@ -130,3 +130,51 @@
 [INFO: 2021-10-12 14:43:14 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
 [INFO: 2021-10-12 14:43:14 com.tests.BaseTest.tearDown(BaseTest.java:88)] starting tearDown
 [INFO: 2021-10-12 14:43:15 com.tests.BaseTest.tearDown(BaseTest.java:90)] ending tearDown
+[INFO: 2021-10-12 18:18:58 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:19:11 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:19:12 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:10)] starting test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 18:19:12 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:12)] ending test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 18:19:12 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:19:12 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:19:12 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:19:14 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:19:14 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:17)] starting test case verifyLoginButtonTest
+[INFO: 2021-10-12 18:19:14 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:19)] ending test case verifyLoginButtonTest
+[INFO: 2021-10-12 18:19:14 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:19:14 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:19:14 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:19:17 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:19:17 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:9)] starting test case verifyProductsHeadingTest
+[INFO: 2021-10-12 18:19:21 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:12)] ending test case verifyProductsHeadingTest
+[INFO: 2021-10-12 18:19:21 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:19:21 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:19:21 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:19:24 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:19:24 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:16)] starting test case verifyCartButtonTest
+[INFO: 2021-10-12 18:19:27 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
+[INFO: 2021-10-12 18:19:27 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:19:27 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:20:30 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:20:39 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:20:39 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:10)] starting test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 18:20:39 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:12)] ending test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 18:20:39 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:20:39 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:20:39 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:20:42 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:20:43 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:17)] starting test case verifyLoginButtonTest
+[INFO: 2021-10-12 18:20:43 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:19)] ending test case verifyLoginButtonTest
+[INFO: 2021-10-12 18:20:43 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:20:43 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:20:43 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:20:46 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:20:46 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:9)] starting test case verifyProductsHeadingTest
+[INFO: 2021-10-12 18:20:49 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:12)] ending test case verifyProductsHeadingTest
+[INFO: 2021-10-12 18:20:49 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:20:49 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 18:20:49 com.tests.BaseTest.setUp(BaseTest.java:39)] starting setup
+[INFO: 2021-10-12 18:20:52 com.tests.BaseTest.setUp(BaseTest.java:81)] ending setup
+[INFO: 2021-10-12 18:20:52 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:16)] starting test case verifyCartButtonTest
+[INFO: 2021-10-12 18:20:56 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
+[INFO: 2021-10-12 18:20:56 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
+[INFO: 2021-10-12 18:20:56 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
