@@ -4,6 +4,8 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.nio.file.Paths;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.AfterMethod;
@@ -12,6 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
@@ -22,6 +25,7 @@ public class BaseTest {
 	Playwright playwright;
 	BrowserType firefox;
 	BrowserType chromium;
+	BrowserContext context;
 	Browser browser;
 	Page page;
 	LoginPage loginPage;
@@ -74,7 +78,8 @@ public class BaseTest {
 		else {
 			System.out.println("browser not found");
 		}
-		page = browser.newPage();
+		context= browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
+		page = context.newPage();
 		page.navigate("https://www.saucedemo.com/");
 		loginPage=new LoginPage(page);
 		homePage=new HomePage(page);
@@ -84,6 +89,7 @@ public class BaseTest {
 	public void tearDown()
 	{
 		logger.info("starting tearDown");
+		context.close();
 		browser.close();
 		logger.info("ending tearDown");
 	}

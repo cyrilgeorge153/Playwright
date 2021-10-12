@@ -178,3 +178,99 @@
 [INFO: 2021-10-12 18:20:56 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
 [INFO: 2021-10-12 18:20:56 com.tests.BaseTest.tearDown(BaseTest.java:86)] starting tearDown
 [INFO: 2021-10-12 18:20:56 com.tests.BaseTest.tearDown(BaseTest.java:88)] ending tearDown
+[INFO: 2021-10-12 22:06:19 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:06:44 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:06:44 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:10)] starting test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:06:44 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:12)] ending test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:06:44 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:06:45 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:06:45 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:06:48 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:06:48 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:17)] starting test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:06:48 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:19)] ending test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:06:48 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:06:49 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:06:49 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:06:52 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:06:52 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:9)] starting test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:06:56 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:12)] ending test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:06:56 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:06:56 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:06:56 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:07:00 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:07:00 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:16)] starting test case verifyCartButtonTest
+[INFO: 2021-10-12 22:07:04 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
+[INFO: 2021-10-12 22:07:04 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:07:04 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:11:24 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:11:37 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:11:37 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:10)] starting test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:11:37 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:12)] ending test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:11:37 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:11:38 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:11:38 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:11:41 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:11:41 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:17)] starting test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:11:42 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:19)] ending test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:11:42 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:11:42 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:11:42 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:11:47 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:11:47 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:9)] starting test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:11:50 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:12)] ending test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:11:50 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:11:51 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:11:51 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:11:54 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:11:54 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:16)] starting test case verifyCartButtonTest
+[INFO: 2021-10-12 22:11:58 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
+[INFO: 2021-10-12 22:11:58 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:12:01 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:17:05 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:17:17 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:17:17 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:10)] starting test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:17:17 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:12)] ending test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:17:17 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:17:17 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:17:17 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:17:20 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:17:20 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:17)] starting test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:17:21 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:19)] ending test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:17:21 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:17:21 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:17:21 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:17:24 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:17:24 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:9)] starting test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:17:27 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:12)] ending test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:17:27 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:17:28 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:17:28 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:17:31 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:17:31 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:16)] starting test case verifyCartButtonTest
+[INFO: 2021-10-12 22:17:34 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
+[INFO: 2021-10-12 22:17:34 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:17:34 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:18:02 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:18:14 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:18:14 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:10)] starting test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:18:14 com.tests.LoginTest.verifyLoginPageTitleTest(LoginTest.java:12)] ending test case verifyLoginPageTitleTest
+[INFO: 2021-10-12 22:18:14 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:18:15 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:18:15 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:18:18 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:18:18 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:17)] starting test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:18:18 com.tests.LoginTest.verifyLoginButtonTest(LoginTest.java:19)] ending test case verifyLoginButtonTest
+[INFO: 2021-10-12 22:18:18 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:18:18 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:18:18 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:18:21 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:18:21 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:9)] starting test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:18:25 com.tests.HomeTest.verifyProductsHeadingTest(HomeTest.java:12)] ending test case verifyProductsHeadingTest
+[INFO: 2021-10-12 22:18:25 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:18:25 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
+[INFO: 2021-10-12 22:18:25 com.tests.BaseTest.setUp(BaseTest.java:43)] starting setup
+[INFO: 2021-10-12 22:18:28 com.tests.BaseTest.setUp(BaseTest.java:86)] ending setup
+[INFO: 2021-10-12 22:18:28 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:16)] starting test case verifyCartButtonTest
+[INFO: 2021-10-12 22:18:31 com.tests.HomeTest.verifyCartButtonTest(HomeTest.java:19)] ending test case verifyCartButtonTest
+[INFO: 2021-10-12 22:18:31 com.tests.BaseTest.tearDown(BaseTest.java:91)] starting tearDown
+[INFO: 2021-10-12 22:18:31 com.tests.BaseTest.tearDown(BaseTest.java:94)] ending tearDown
