@@ -25,6 +25,8 @@ Log file->Playwright/log/testlog.log
 Prerequisites
 
 1.Java 8/+ should be present and environment variable should be set in the local system.
+
 2.Maven should be present and environment variable should be set in the local system.
+
 3.All browsers mentioned above should be present in the local system.
 
