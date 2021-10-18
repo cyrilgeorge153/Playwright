@@ -16,6 +16,8 @@
 
 > Given support to chrome, firefox, microsoft edge, headless chrome, headless firefox, headlessedge. 
 
+> Supports parallel execution of test cases
+
 Maven Project Execution without using any IDE after downloading project to local system-> Select CMD and go to project path where pom.xml file is loacted and execute following commands in CMD
 
 To execute in chrome->`mvn test -Dbrowsername=chrome`
