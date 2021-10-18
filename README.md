@@ -2,7 +2,7 @@
 
 ![Playwright](https://user-images.githubusercontent.com/52770689/136776927-6fc1bf5d-bb11-4399-9b45-bcb4b7fe311f.png)
 
-> Playwright Java-Maven-TestNG framework. 
+> Playwright Java-Maven-Junit framework. 
 
 > Implemented cross browser testing. 
 
@@ -10,9 +10,7 @@
 
 > Added Log 4j Api to generate log files.
 
-> Used TestNG inbuild reports. 
-
-> Used retry analyzer to rerun the failed test cases.
+> Used Allure report. 
 
 > Given support to chrome, firefox, microsoft edge, headless chrome, headless firefox, headlessedge. 
 
