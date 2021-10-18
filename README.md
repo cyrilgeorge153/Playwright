@@ -30,7 +30,7 @@ To execute in edge->`mvn test -Dbrowsername=edge`
 
 To execute in headlessedge->`mvn test -Dbrowsername=headlessedge`
 
-Testng Report path after execution->Playwright/test-output/index.html
+To view Allure Report after test case execution, use the command->`allure serve allure-results`
 
 Log file->Playwright/log/testlog.log
 
