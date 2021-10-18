@@ -1,13 +1,9 @@
 package com.tests;
 
-import java.awt.Desktop;
-import java.io.File;
-import java.io.IOException;
 import java.nio.file.Paths;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -30,77 +26,54 @@ public class BaseTest {
 	LoginPage loginPage;
 	HomePage homePage;
 	static Logger logger;
-	
+
 	@BeforeAll
 	public static void generateLog() {
 		logger = Logger.getLogger("Utility");
 		PropertyConfigurator.configure("./src/main/resources/log4j/log4j.properties");
 	}
-	
+
 	@BeforeEach
 	public void setUp() {
 		logger.info("starting setup");
-		String browserName = System.getProperty("browsername"); 
+		String browserName = System.getProperty("browsername");
 		playwright = Playwright.create();
 		chromium = playwright.chromium();
 		firefox = playwright.firefox();
-		if(browserName.equalsIgnoreCase("chrome"))
-		{
+		if (browserName.equalsIgnoreCase("chrome")) {
 			browser = chromium
 					.launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false).setSlowMo(1000));
-		}
-		else if(browserName.equalsIgnoreCase("headlesschrome"))
-		{
+		} else if (browserName.equalsIgnoreCase("headlesschrome")) {
 			browser = chromium
 					.launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(true).setSlowMo(1000));
-		}
-		else if(browserName.equalsIgnoreCase("firefox"))
-		{
+		} else if (browserName.equalsIgnoreCase("firefox")) {
 			browser = firefox
 					.launch(new BrowserType.LaunchOptions().setChannel("firefox").setHeadless(false).setSlowMo(1000));
-		}
-		else if(browserName.equalsIgnoreCase("headlessfirefox"))
-		{
+		} else if (browserName.equalsIgnoreCase("headlessfirefox")) {
 			browser = firefox
 					.launch(new BrowserType.LaunchOptions().setChannel("firefox").setHeadless(true).setSlowMo(1000));
-		}
-		else if(browserName.equalsIgnoreCase("edge"))
-		{
+		} else if (browserName.equalsIgnoreCase("edge")) {
 			browser = chromium
 					.launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(false).setSlowMo(1000));
-		}
-		else if(browserName.equalsIgnoreCase("headlessedge"))
-		{
+		} else if (browserName.equalsIgnoreCase("headlessedge")) {
 			browser = chromium
 					.launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(true).setSlowMo(1000));
-		}
-		else {
+		} else {
 			System.out.println("browser not found");
 		}
-		context= browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
+		context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
 		page = context.newPage();
 		page.navigate("https://www.saucedemo.com/");
-		loginPage=new LoginPage(page);
-		homePage=new HomePage(page);
+		loginPage = new LoginPage(page);
+		homePage = new HomePage(page);
 		logger.info("ending setup");
 	}
+
 	@AfterEach
-	public void tearDown()
-	{
+	public void tearDown() {
 		logger.info("starting tearDown");
 		context.close();
 		browser.close();
 		logger.info("ending tearDown");
 	}
-	@AfterAll
-    public static void openReport() {
-		logger.info("starting openReport");
-        try {
-            Desktop.getDesktop()
-                    .browse(new File("target/site/summary.html").toURI());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        logger.info("ending openReport");
-    }	
 }
