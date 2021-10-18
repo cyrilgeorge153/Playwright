@@ -32,6 +32,8 @@ To execute in headlessedge->`mvn test -Dbrowsername=headlessedge`
 
 To view Allure Report after test case execution, use the command->`allure serve allure-results`
 
+![8Q7njVdCGk](https://user-images.githubusercontent.com/52770689/137688801-d285cc87-bca8-4e37-be0f-877520a88355.png)
+
 Log file->Playwright/log/testlog.log
 
 Test execution video->Playwright/videos
