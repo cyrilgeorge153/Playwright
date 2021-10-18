@@ -1,21 +1,23 @@
 package com.tests;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
+@Execution(ExecutionMode.CONCURRENT)
 public class HomeTest extends BaseTest{
-	@Test(priority = 2)
+	@Test
 	public void verifyProductsHeadingTest() {
 		logger.info("starting test case verifyProductsHeadingTest");
 		loginPage.loginApp();
-		Assert.assertEquals(homePage.verifyProductsHeading(), "Products");
+		Assertions.assertEquals(homePage.verifyProductsHeading(), "Products");
 		logger.info("ending test case verifyProductsHeadingTest");
 	}
-	@Test(priority = 3)
+	@Test
 	public void verifyCartButtonTest() {
 		logger.info("starting test case verifyCartButtonTest");
 		loginPage.loginApp();
-		Assert.assertEquals(homePage.verifyCartButton(), true);
+		Assertions.assertEquals(homePage.verifyCartButton(), true);
 		logger.info("ending test case verifyCartButtonTest");
 	}
 

@@ -3,15 +3,14 @@ package com.tests;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.nio.file.Paths;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
@@ -30,15 +29,15 @@ public class BaseTest {
 	Page page;
 	LoginPage loginPage;
 	HomePage homePage;
-	public static Logger logger;
+	static Logger logger;
 	
-	@BeforeClass
-	public void generateLog() throws URISyntaxException {
+	@BeforeAll
+	public static void generateLog() {
 		logger = Logger.getLogger("Utility");
 		PropertyConfigurator.configure("./src/main/resources/log4j/log4j.properties");
 	}
 	
-	@BeforeMethod
+	@BeforeEach
 	public void setUp() {
 		logger.info("starting setup");
 		String browserName = System.getProperty("browsername"); 
@@ -85,7 +84,7 @@ public class BaseTest {
 		homePage=new HomePage(page);
 		logger.info("ending setup");
 	}
-	@AfterMethod
+	@AfterEach
 	public void tearDown()
 	{
 		logger.info("starting tearDown");
@@ -93,13 +92,15 @@ public class BaseTest {
 		browser.close();
 		logger.info("ending tearDown");
 	}
-	@AfterSuite
+	@AfterAll
     public static void openReport() {
+		logger.info("starting openReport");
         try {
             Desktop.getDesktop()
-                    .browse(new File("test-output/index.html").toURI());
+                    .browse(new File("target/site/summary.html").toURI());
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+        logger.info("ending openReport");
+    }	
 }

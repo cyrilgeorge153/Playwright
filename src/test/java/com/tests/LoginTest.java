@@ -1,21 +1,24 @@
 package com.tests;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 
+@Execution(ExecutionMode.CONCURRENT)
 public class LoginTest extends BaseTest {
 
-	@Test(priority = 0)
+	@Test
 	public void verifyLoginPageTitleTest() {
 		logger.info("starting test case verifyLoginPageTitleTest");
-		Assert.assertEquals(loginPage.verifyLoginPageTitle(), "Swag Labs");
+		Assertions.assertEquals(loginPage.verifyLoginPageTitle(), "Swag Labs");
 		logger.info("ending test case verifyLoginPageTitleTest");
 	}
 
-	@Test(priority = 1)
+	@Test
 	public void verifyLoginButtonTest() {
 		logger.info("starting test case verifyLoginButtonTest");
-		Assert.assertEquals(loginPage.verifyLoginButton(), true);
+		Assertions.assertEquals(loginPage.verifyLoginButton(), true);
 		logger.info("ending test case verifyLoginButtonTest");
 	}
 }
