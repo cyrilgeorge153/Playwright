@@ -36,13 +36,13 @@ To view Allure Report after test case execution, use the command->`allure serve 
 
 ![YI51K4cydu](https://user-images.githubusercontent.com/52770689/137689188-92579862-05d4-4f6f-84b5-24df7066e830.png)
 
-Test execution gif->![Playwright Test Execution gif](https://user-images.githubusercontent.com/52770689/137693871-0978766a-07cc-4f2e-9b99-b2f41b146923.gif)
+**Test execution gif->** ![ewO9C9CLU0](https://user-images.githubusercontent.com/52770689/138232179-2ae6bf3f-bf0a-4bb1-a531-3c7bf45a117a.gif)
 
-Log file->Playwright/log/testlog.log
+**Log file->** Playwright/log/testlog.log
 
-Test execution video->Playwright/videos
+**Test execution video->** Playwright/videos
 
-Prerequisites
+**Prerequisites**
 
 1.Java 8/+ should be present and environment variable should be set in the local system.
 
