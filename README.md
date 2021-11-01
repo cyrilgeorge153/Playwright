@@ -20,15 +20,15 @@ Maven Project Execution without using any IDE after downloading project to local
 
 To execute in chrome->`mvn test -Dbrowsername=chrome`
 
-To execute in headlesschrome->`mvn test -Dbrowsername=headlesschrome`
+To execute in headlesschrome->`mvn clean test -Dbrowsername=headlesschrome`
 
-To execute in firefox->`mvn test -Dbrowsername=firefox`
+To execute in firefox->`mvn clean test -Dbrowsername=firefox`
 
-To execute in headlessfirefox->`mvn test -Dbrowsername=headlessfirefox`
+To execute in headlessfirefox->`mvn clean test -Dbrowsername=headlessfirefox`
 
-To execute in edge->`mvn test -Dbrowsername=edge`
+To execute in edge->`mvn clean test -Dbrowsername=edge`
 
-To execute in headlessedge->`mvn test -Dbrowsername=headlessedge`
+To execute in headlessedge->`mvn clean test -Dbrowsername=headlessedge`
 
 To view Allure Report after test case execution, use the command->`allure serve allure-results`
 
