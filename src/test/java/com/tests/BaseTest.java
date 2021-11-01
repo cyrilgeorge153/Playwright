@@ -1,13 +1,15 @@
 package com.tests;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
@@ -28,11 +30,17 @@ public class BaseTest {
 	static Logger logger;
 
 	@BeforeAll
-	public static void generateLog() {
+	public static void generateLog() throws IOException  {
 		logger = Logger.getLogger("Utility");
 		PropertyConfigurator.configure("./src/main/resources/log4j/log4j.properties");
+		logger.info("starting deleteAllureResults");
+		Files.walk(Paths.get(System.getProperty("user.dir")+"/allure-results/"))
+        .filter(Files::isRegularFile)
+        .map(Path::toFile)
+        .forEach(File::delete);
+		logger.info("ending deleteAllureResults");
 	}
-
+	
 	@BeforeEach
 	public void setUp() {
 		logger.info("starting setup");
@@ -75,5 +83,5 @@ public class BaseTest {
 		context.close();
 		browser.close();
 		logger.info("ending tearDown");
-	}
+	}	
 }

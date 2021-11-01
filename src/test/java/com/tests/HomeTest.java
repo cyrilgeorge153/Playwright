@@ -24,6 +24,7 @@ public class HomeTest extends BaseTest{
 		Assertions.assertEquals(homePage.verifyProductsHeading(), "Products");
 		logger.info("ending test case verifyProductsHeadingTest");
 	}
+	
 	@Test
 	@Story("verifyCartButtonTest Story")
     @Description("verifyCartButtonTest Description")
@@ -33,5 +34,4 @@ public class HomeTest extends BaseTest{
 		Assertions.assertEquals(homePage.verifyCartButton(), true);
 		logger.info("ending test case verifyCartButtonTest");
 	}
-
 }

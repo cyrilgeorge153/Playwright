@@ -18,5 +18,4 @@ public class HomePage {
 	public boolean verifyCartButton() {
 		return page.locator(cart_css).isVisible();
 	}
-
 }

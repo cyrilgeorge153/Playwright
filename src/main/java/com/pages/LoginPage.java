@@ -26,6 +26,4 @@ public class LoginPage {
 		page.locator(password_id).fill("secret_sauce");
 		page.locator(login_button_id).click();
 	}
-	
-
 }
