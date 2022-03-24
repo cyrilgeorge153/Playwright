@@ -54,3 +54,11 @@
 2022-03-24 18:47:12,160 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
 2022-03-24 18:47:12,493 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
 2022-03-24 18:47:12,493 [ForkJoinPool-1-worker-9] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
+2022-03-24 18:54:47,565 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:35)- starting deleteAllureResults
+2022-03-24 18:54:47,582 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:40)- ending deleteAllureResults
+2022-03-24 18:54:47,639 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:45)- starting setup
+2022-03-24 18:54:59,243 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:76)- ending setup
+2022-03-24 18:54:59,280 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (LoginTest.java:22)- starting test case verifyLoginPageTitleTest
+2022-03-24 18:54:59,379 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (LoginTest.java:24)- ending test case verifyLoginPageTitleTest
+2022-03-24 18:54:59,385 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
+2022-03-24 18:55:00,260 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
