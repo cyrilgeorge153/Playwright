@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -27,12 +27,11 @@ public class BaseTest {
 	Page page;
 	LoginPage loginPage;
 	HomePage homePage;
-	static Logger logger;
+	public static Logger logger;
 
 	@BeforeAll
 	public static void generateLog() throws IOException  {
-		logger = Logger.getLogger("Utility");
-		PropertyConfigurator.configure("./src/main/resources/log4j/log4j.properties");
+		logger = LogManager.getLogger(BaseTest.class);
 		logger.info("starting deleteAllureResults");
 		Files.walk(Paths.get(System.getProperty("user.dir")+"/allure-results/"))
         .filter(Files::isRegularFile)
@@ -44,7 +43,7 @@ public class BaseTest {
 	@BeforeEach
 	public void setUp() {
 		logger.info("starting setup");
-		String browserName = System.getProperty("browsername");
+		String browserName = System.getProperty("browsername","chrome");
 		playwright = Playwright.create();
 		chromium = playwright.chromium();
 		firefox = playwright.firefox();

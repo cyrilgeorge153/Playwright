@@ -1,0 +1,32 @@
+2022-03-24 18:39:00,528 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:35)- starting deleteAllureResults
+2022-03-24 18:39:00,540 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:40)- ending deleteAllureResults
+2022-03-24 18:39:00,590 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:45)- starting setup
+2022-03-24 18:39:08,729 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:76)- ending setup
+2022-03-24 18:39:08,735 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (LoginTest.java:22)- starting test case verifyLoginPageTitleTest
+2022-03-24 18:39:08,762 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (LoginTest.java:24)- ending test case verifyLoginPageTitleTest
+2022-03-24 18:39:08,770 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
+2022-03-24 18:39:09,559 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
+2022-03-24 18:41:06,732 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (BaseTest.java:35)- starting deleteAllureResults
+2022-03-24 18:41:06,745 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (BaseTest.java:40)- ending deleteAllureResults
+2022-03-24 18:41:06,763 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (BaseTest.java:45)- starting setup
+2022-03-24 18:41:06,766 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:45)- starting setup
+2022-03-24 18:41:21,325 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:76)- ending setup
+2022-03-24 18:41:21,335 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (LoginTest.java:22)- starting test case verifyLoginPageTitleTest
+2022-03-24 18:41:21,612 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (BaseTest.java:76)- ending setup
+2022-03-24 18:41:21,626 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (HomeTest.java:22)- starting test case verifyProductsHeadingTest
+2022-03-24 18:41:21,705 [ForkJoinPool-1-worker-7] INFO  com.tests.BaseTest (BaseTest.java:76)- ending setup
+2022-03-24 18:41:21,711 [ForkJoinPool-1-worker-7] INFO  com.tests.BaseTest (HomeTest.java:32)- starting test case verifyCartButtonTest
+2022-03-24 18:41:21,926 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (BaseTest.java:76)- ending setup
+2022-03-24 18:41:21,931 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (LoginTest.java:31)- starting test case verifyLoginButtonTest
+2022-03-24 18:41:22,021 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (LoginTest.java:24)- ending test case verifyLoginPageTitleTest
+2022-03-24 18:41:22,028 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
+2022-03-24 18:41:22,080 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (LoginTest.java:33)- ending test case verifyLoginButtonTest
+2022-03-24 18:41:22,082 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
+2022-03-24 18:41:28,324 [ForkJoinPool-1-worker-1] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
+2022-03-24 18:41:28,340 [ForkJoinPool-1-worker-3] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
+2022-03-24 18:41:31,993 [ForkJoinPool-1-worker-7] INFO  com.tests.BaseTest (HomeTest.java:35)- ending test case verifyCartButtonTest
+2022-03-24 18:41:31,999 [ForkJoinPool-1-worker-7] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
+2022-03-24 18:41:32,028 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (HomeTest.java:25)- ending test case verifyProductsHeadingTest
+2022-03-24 18:41:32,031 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (BaseTest.java:81)- starting tearDown
+2022-03-24 18:41:32,274 [ForkJoinPool-1-worker-5] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
+2022-03-24 18:41:32,299 [ForkJoinPool-1-worker-7] INFO  com.tests.BaseTest (BaseTest.java:84)- ending tearDown
