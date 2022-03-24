@@ -38,7 +38,7 @@ To view Allure Report after test case execution, use the command->`allure serve 
 
 **Test execution gif->** ![ewO9C9CLU0](https://user-images.githubusercontent.com/52770689/138232179-2ae6bf3f-bf0a-4bb1-a531-3c7bf45a117a.gif)
 
-**Log file->** Playwright/log/testlog.log
+**Log file->** Playwright/all.log
 
 **Test execution video->** Playwright/videos
 
